@@ -1979,4 +1979,8 @@ menu "Text editors and viewers"
 	source "package/vim/Config.in"
 endmenu
 
+menu "shredos"
+	source "package/nwipe/Config.in"
+endmenu
+
 endmenu

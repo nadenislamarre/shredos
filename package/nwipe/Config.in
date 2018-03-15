@@ -1,0 +1,8 @@
+config BR2_PACKAGE_NWIPE
+        bool "nwipe"
+	select BR2_PACKAGE_NCURSES
+	select BR2_PACKAGE_PARTED
+        help
+          NWipe
+
+comment "nwipe"
