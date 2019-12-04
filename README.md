@@ -1,6 +1,6 @@
-#ShredOS
+# ShredOS
 
-ShredOS is a small linux distribution with the sole purpose of securely erasing your
+ShredOS is a USB bootable small linux distribution with the sole purpose of securely erasing your
 disks using the program [nwipe](https://github.com/martijnvanbrummelen/nwipe).
 
 ShredOS boots very quickly and depending upon the host system can boot in as little
@@ -21,6 +21,8 @@ Nwipe also includes the following pseudo random number generators:
 * mersenne
 * twister
 * isaac
+
+## Compiling ShredOS and burning to USB stick
 
 The ShredOS system is built using buildroot.
 The final system size is about 12MB but due to minimim fat32 partition size, the ending image is about
